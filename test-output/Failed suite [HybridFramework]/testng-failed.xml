@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [HybridFramework]]">
+  <listeners>
+    <listener class-name="com.ccs.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="ccs(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ccs.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="LoginDDT" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.ccs.testCases.TC_LoginDDT_002 -->
+    </classes>
+  </test> <!-- ccs(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [HybridFramework]] -->

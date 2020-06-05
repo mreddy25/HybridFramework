@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HybridFramework">
+
+	<listeners>
+		<listener class-name="com.ccs.utilities.Reporting" />
+	</listeners>
+
+  	<test name="ccs">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		<!-- we can run all the classes at a time. if you want to run indivisually, you can comment the class -->
+			<class name="com.ccs.testCases.TC_LoginTest_001" /><!-- here we have to specify test case name not the base calss name -->
+			<!-- <class name="com.ccs.testCases.TC_LoginDDT_002" /> --><!-- data driven test -->
+			<class name="com.ccs.testCases.TC_AddCustomerTest_003" />
+
+		</classes>
+	</test>
+	
+	
+	<!-- if you want to run the test with different browsers at a time -->
+	<test name="ccs 2">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.ccs.testCases.TC_LoginTest_001" />
+		</classes>
+	</test>
+	
+
+</suite>

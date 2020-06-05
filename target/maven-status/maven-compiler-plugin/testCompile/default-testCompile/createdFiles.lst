@@ -1,0 +1,11 @@
+com\ccs\pageObjects\LoginPage.class
+com\ccs\pageObjects\EditCustomerPage.class
+com\ccs\testCases\TC_LoginTest_001.class
+com\ccs\pageObjects\CCSLoginPage.class
+com\ccs\testCases\TC_AddCustomerTest_003.class
+com\ccs\utilities\Reporting.class
+com\ccs\pageObjects\AddCustomerPage.class
+com\ccs\testCases\BaseClass.class
+com\ccs\testCases\TC_LoginDDT_002.class
+com\ccs\utilities\ReadConfig.class
+com\ccs\utilities\XLUtils.class
