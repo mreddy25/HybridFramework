@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-HybridFramework">
-                    <span>D:\Selenium\CucumberFramework\HybridFramework\TestNG.xml</span>
+                    <span>D:\Selenium\MyWorkspace\HybridFramework\TestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-HybridFramework">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HybridFramework" title="com.ccs.testCases.TC_AddCustomerTest_003" hash-for-method="addNewCustomer">addNewCustomer</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-HybridFramework" title="com.ccs.testCases.TC_LoginDDT_002" hash-for-method="LoginDDT(mngr265461, Esasyvy )">LoginDDT(mngr265461, Esasyvy )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybridFramework" title="com.ccs.testCases.TC_LoginDDT_002" hash-for-method="LoginDDT(mngr265461, Esasyvy )">LoginDDT(mngr265461, Esasyvy )</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,14 +157,23 @@
           <div class="suite-HybridFramework-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.ccs.testCases.TC_AddCustomerTest_003</span>
+              <span class="class-name">com.ccs.testCases.TC_LoginDDT_002</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addNewCustomer">
-                  </a> <!-- addNewCustomer -->
-                  <span class="method-name">addNewCustomer</span>
+                  <a name="LoginDDT(mngr265461, Esasyvy )">
+                  </a> <!-- LoginDDT(mngr265461, Esasyvy ) -->
+                  <span class="method-name">LoginDDT</span>
+                  <span class="parameters">(mngr265461, Esasyvy )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDDT(mngr265461, Esasyvy )">
+                  </a> <!-- LoginDDT(mngr265461, Esasyvy ) -->
+                  <span class="method-name">LoginDDT</span>
+                  <span class="parameters">(mngr265461, Esasyvy )</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -167,7 +181,7 @@
         </div> <!-- panel HybridFramework -->
         <div panel-name="test-xml-HybridFramework" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Selenium\CucumberFramework\HybridFramework\TestNG.xml</span>
+            <span class="header-content">D:\Selenium\MyWorkspace\HybridFramework\TestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -181,7 +195,7 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.ccs.testCases.TC_LoginTest_001&quot;/&gt;
-      &lt;class name=&quot;com.ccs.testCases.TC_AddCustomerTest_003&quot;/&gt;
+      &lt;class name=&quot;com.ccs.testCases.TC_LoginDDT_002&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ccs --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ccs 2&quot;&gt;
@@ -230,24 +244,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addNewCustomer')
-data.setCell(0, 2, 'com.ccs.testCases.TC_AddCustomerTest_003')
-data.setCell(0, 3, 23290);
+data.setCell(0, 1, 'LoginDDT')
+data.setCell(0, 2, 'com.ccs.testCases.TC_LoginDDT_002')
+data.setCell(0, 3, 14174);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTest')
 data.setCell(1, 2, 'com.ccs.testCases.TC_LoginTest_001')
-data.setCell(1, 3, 8641);
+data.setCell(1, 3, 12400);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginTest')
-data.setCell(2, 2, 'com.ccs.testCases.TC_LoginTest_001')
-data.setCell(2, 3, 8585);
+data.setCell(2, 1, 'LoginDDT')
+data.setCell(2, 2, 'com.ccs.testCases.TC_LoginDDT_002')
+data.setCell(2, 3, 11760);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginTest')
+data.setCell(3, 2, 'com.ccs.testCases.TC_LoginTest_001')
+data.setCell(3, 3, 9354);
 window.suiteTableData['HybridFramework']= { tableData: data, tableDiv: 'times-div-HybridFramework'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-HybridFramework">
               </div> <!-- times-div-HybridFramework -->
             </div> <!-- times-div -->
@@ -280,41 +298,45 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">10686 ms</span>
+                <span class="method-start">8915 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19346 ms</span>
+                <span class="method-start">21341 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.ccs.testCases.TC_AddCustomerTest_003</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.ccs.testCases.TC_LoginDDT_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">20407 ms</span>
+                <span class="method-start">22769 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">addNewCustomer</span>
-                <span class="method-start">29630 ms</span>
+                <span class="method-name">LoginDDT(mngr265461, Esasyvy )</span>
+                <span class="method-start">39035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginDDT(mngr265461, Esasyvy )</span>
+                <span class="method-start">53211 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52923 ms</span>
+                <span class="method-start">64974 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ccs.testCases.TC_LoginTest_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">54482 ms</span>
+                <span class="method-start">67025 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">66037 ms</span>
+                <span class="method-start">78400 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">74624 ms</span>
+                <span class="method-start">87756 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

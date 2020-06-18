@@ -1,3 +1,2 @@
-cd D:\Selenium\CucumberFramework\HybridFramework
+cd D:\Selenium\MyWorkspace\HybridFramework
 mvn clean install
-pause

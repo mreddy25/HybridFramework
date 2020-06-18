@@ -7,18 +7,11 @@
   <test thread-count="5" name="ccs(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ccs.testCases.TC_AddCustomerTest_003">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="addNewCustomer"/>
-        </methods>
-      </class> <!-- com.ccs.testCases.TC_AddCustomerTest_003 -->
       <class name="com.ccs.testCases.TC_LoginDDT_002">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="LoginDDT" invocation-numbers="1 2"/>
+          <include name="LoginDDT" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.ccs.testCases.TC_LoginDDT_002 -->
     </classes>

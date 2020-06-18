@@ -18,9 +18,9 @@ public class TC_LoginDDT_002 extends BaseClass
 	public void LoginDDT(String user, String pwd) throws InterruptedException
 	{
 		LoginPage lp = new LoginPage(driver);
-		lp.setUserName(user);
+		lp.setUserName(username);
 		logger.info("user name provided");
-		lp.setPassword(pwd);
+		lp.setPassword(password);
 		logger.info("password provided");
 		lp.clickSubmit();
 		

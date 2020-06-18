@@ -27,7 +27,7 @@ public class BaseClass {
 	
 	ReadConfig readconfig=new ReadConfig();
 	
-	//without readfile
+	//without read file
 	//public String baseURL="http://demo.guru99.com/v4/";
 	//if you have configured read file below code is the alternate for the above one
 	//getApplicationURL();- this method is defined in ReadConfig.java for get URL
@@ -43,7 +43,7 @@ public class BaseClass {
 	
 	public static Logger logger;
 	
-	@Parameters("browser")//this parameter to specify in xml file
+	@Parameters("browser")//this parameter is to be specified in xml file
 	@BeforeClass
 	public void setup(String br)
 	{
@@ -53,7 +53,7 @@ public class BaseClass {
 		
 		if(br.equals("chrome"))
 		{
-				//System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\CucumberFramework\\HybridFramework\\Drivers\\chromedriver.exe");
+				//System.setProperty("webdriver.chrome.driver", "D:\Selenium\MyWorkspace\\HybridFramework\\Drivers\\chromedriver.exe");
 			//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
 		
 			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
@@ -83,7 +83,7 @@ public class BaseClass {
 			driver = new InternetExplorerDriver();
 		}
 				//maximize the browser and page load
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		//driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		//driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

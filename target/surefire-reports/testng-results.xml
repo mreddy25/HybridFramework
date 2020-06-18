@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="HybridFramework" duration-ms="83814" started-at="2020-06-02T07:42:02Z" finished-at="2020-06-02T07:43:26Z">
+  <suite name="HybridFramework" duration-ms="95433" started-at="2020-06-11T11:38:22Z" finished-at="2020-06-11T11:39:58Z">
     <groups>
     </groups>
-    <test name="ccs" duration-ms="61340" started-at="2020-06-02T07:42:02Z" finished-at="2020-06-02T07:43:04Z">
-      <class name="com.ccs.testCases.TC_AddCustomerTest_003">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_AddCustomerTest_003@234bef66]" name="setup" is-config="true" duration-ms="10195" started-at="2020-06-02T07:42:29Z" finished-at="2020-06-02T07:42:39Z">
+    <test name="ccs" duration-ms="73541" started-at="2020-06-11T11:38:22Z" finished-at="2020-06-11T11:39:36Z">
+      <class name="com.ccs.testCases.TC_LoginDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@97e1986]" name="setup" is-config="true" duration-ms="11528" started-at="2020-06-11T11:38:47Z" finished-at="2020-06-11T11:38:59Z">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.ccs.testCases.TC_AddCustomerTest_003@234bef66]" name="addNewCustomer" duration-ms="24159" started-at="2020-06-02T07:42:39Z" finished-at="2020-06-02T07:43:03Z">
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@97e1986]" name="LoginDDT" duration-ms="23505" started-at="2020-06-11T11:39:00Z" data-provider="LoginData" finished-at="2020-06-11T11:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr265461]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Esasyvy ]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_AddCustomerTest_003@234bef66]" name="tearDown" is-config="true" duration-ms="915" started-at="2020-06-02T07:43:03Z" finished-at="2020-06-02T07:43:04Z">
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@97e1986]" name="LoginDDT" duration-ms="11731" started-at="2020-06-11T11:39:23Z" data-provider="LoginData" finished-at="2020-06-11T11:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr265461]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Esasyvy ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@97e1986]" name="tearDown" is-config="true" duration-ms="966" started-at="2020-06-11T11:39:35Z" finished-at="2020-06-11T11:39:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ccs.testCases.TC_AddCustomerTest_003 -->
+      </class> <!-- com.ccs.testCases.TC_LoginDDT_002 -->
       <class name="com.ccs.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@9f70c54]" name="setup" is-config="true" duration-ms="18489" started-at="2020-06-02T07:42:03Z" finished-at="2020-06-02T07:42:21Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@3dd3bcd]" name="setup" is-config="true" duration-ms="13214" started-at="2020-06-11T11:38:23Z" finished-at="2020-06-11T11:38:36Z">
           <params>
             <param index="0">
               <value>
@@ -39,19 +67,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@9f70c54]" name="loginTest" duration-ms="6467" started-at="2020-06-02T07:42:21Z" finished-at="2020-06-02T07:42:28Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@3dd3bcd]" name="loginTest" duration-ms="10581" started-at="2020-06-11T11:38:36Z" finished-at="2020-06-11T11:38:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@9f70c54]" name="tearDown" is-config="true" duration-ms="929" started-at="2020-06-02T07:42:28Z" finished-at="2020-06-02T07:42:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@3dd3bcd]" name="tearDown" is-config="true" duration-ms="934" started-at="2020-06-11T11:38:47Z" finished-at="2020-06-11T11:38:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ccs.testCases.TC_LoginTest_001 -->
     </test> <!-- ccs -->
-    <test name="ccs 2" duration-ms="22112" started-at="2020-06-02T07:43:04Z" finished-at="2020-06-02T07:43:26Z">
+    <test name="ccs 2" duration-ms="21496" started-at="2020-06-11T11:39:36Z" finished-at="2020-06-11T11:39:58Z">
       <class name="com.ccs.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@6a2bcfcb]" name="setup" is-config="true" duration-ms="10302" started-at="2020-06-02T07:43:04Z" finished-at="2020-06-02T07:43:14Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@6d8a00e3]" name="setup" is-config="true" duration-ms="9171" started-at="2020-06-11T11:39:36Z" finished-at="2020-06-11T11:39:46Z">
           <params>
             <param index="0">
               <value>
@@ -62,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@6a2bcfcb]" name="loginTest" duration-ms="9239" started-at="2020-06-02T07:43:14Z" finished-at="2020-06-02T07:43:24Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@6d8a00e3]" name="loginTest" duration-ms="9659" started-at="2020-06-11T11:39:46Z" finished-at="2020-06-11T11:39:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@6a2bcfcb]" name="tearDown" is-config="true" duration-ms="2564" started-at="2020-06-02T07:43:24Z" finished-at="2020-06-02T07:43:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@6d8a00e3]" name="tearDown" is-config="true" duration-ms="2655" started-at="2020-06-11T11:39:55Z" finished-at="2020-06-11T11:39:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
